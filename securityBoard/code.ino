@@ -1,5 +1,10 @@
-void setup(){
+void setup()
+{
+    Serial.begin(9600);
     Serial.println("hello world");
 }
 
-void loop(){}
+void loop()
+{
+    Serial.println("code written by softcoder");
+}
